@@ -1,0 +1,131 @@
+﻿/*CSS Sucks*/
+body {
+      font-family: "Roboto", sans-serif;
+  }
+
+  h1 {
+    color: #139FC6;
+    }
+    
+    h2 {
+      color: #175D79;
+    }
+    
+    h3 {
+       color: #17323F;
+    }
+  
+  .logo{
+    width: 10em;
+    height: 5em;
+    margin: 1em;
+    padding: 1em;
+    float: right;
+    background-image: url(img/Logo_La_Marque.svg);
+    background-repeat: no-repeat;
+}
+
+  .sidenav {
+    height: 100%;
+    width: 25.25em;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color:#175D79;
+    overflow-x: hidden;
+    padding-top: 20px;
+  }
+  
+  .sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #ffffff;
+    display: block;
+  }
+  
+  .sidenav a:hover {
+    /*background-color: #000000 ;*/
+    /*color: #000000;*/
+    text-decoration: underline;
+  }
+
+  .liens{
+      float: right;
+      margin: 1em;
+  }
+/* Le plus produit Sidenav */
+#mySidenav a {
+    position: fixed; /* Position them relative to the browser window */
+    left: -80px; /* Position them outside of the screen */
+    /*transition: 0.3s; /* Add transition on hover */
+    padding: 15px; /* 15px padding */
+    width: 100px; /* Set a specific width */
+    text-decoration: none; /* Remove underline */
+    font-size: 0.9em; /* Increase font size */
+    color: white; /* White text color */
+    /*border-radius: 0 5px 5px 0; /* Rounded corners on the top right and bottom right side */
+  }
+  
+  #mySidenav a:hover {
+    /*left: 0; */
+    text-decoration: underline;
+  }
+  
+  /* Les onglets a partir du top */
+  #C17323F {
+    /*top: 320px;*/
+    top: 20em;
+    background-color: #17323F;
+  }
+  
+  #C175D79 {
+    /*top: 380px;*/
+    top: 23em;
+    background-color: #175D79;
+  }
+  
+  #C139FC6 {
+    /*top: 440px;*/
+    top: 26em;
+    background-color: #139FC6;
+  }
+  
+  #C5AC8FA {
+    /*top: 500px;*/
+    top: 29em;
+    background-color: #5AC8FA;
+  }
+  #CB7E2FA {
+    /*top: 560px;*/
+    top: 32em;
+    background-color: #B7E2FA;
+  }
+
+ .main {
+    margin-left: 25.25em; /* mettre une largeur identique a la classe sidenav */
+    font-size: 20px; /* pour augmenter la lisibilité au scroll */
+    color: #021720;
+    padding: 0px 10px;
+  }
+
+  .main a {
+    color: #006487;
+  }
+
+  .main a:visited {
+    color: #660099;
+  }
+ .image {
+    width:70%;
+ }
+
+ .lela {
+     color: crimson;
+ }
+  
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
