@@ -1,6 +1,8 @@
 /*CSS Sucks*/
 body {
       font-family: "Roboto", sans-serif;
+      margin:0;
+      padding:0;
       }
 h1 {
 color: #139FC6;
@@ -27,7 +29,7 @@ h3 {
 
   .sidenav {
     height: 100%;
-    width: 25.25em;
+    width: 27%;
     position: fixed;
     z-index: 1;
     top: 0;
@@ -104,7 +106,7 @@ h3 {
   }
 
  .main {
-    margin-left: 25.25em; /* mettre une largeur identique a la classe sidenav */
+    margin-left: 30%; /* mettre une largeur identique a la classe sidenav */
     font-size: 20px; /* pour augmenter la lisibilité au scroll */
     color: #021720;
     padding: 0px 10px;
