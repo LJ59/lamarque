@@ -23,13 +23,13 @@ h3 {
     margin: 1em;
     padding: 1em;
     float: right;
-    background-image: url(img/Logo_La_Marque.svg);
+    /*background-image: url(img/Logo_La_Marque.svg);*/
     background-repeat: no-repeat;
 }
 
   .sidenav {
     height: 100%;
-    width: 27%;
+    width: 30%;
     position: fixed;
     z-index: 1;
     top: 0;
@@ -58,12 +58,15 @@ h3 {
       margin: 1em;
   }
 /* Le plus produit Sidenav */
-#mySidenav a {
+#mySidenav {
     position: fixed; /* Position them relative to the browser window */
     left: -80px; /* Position them outside of the screen */
     /*transition: 0.3s; /* Add transition on hover */
     padding: 15px; /* 15px padding */
-    width: 100px; /* Set a specific width */
+    width: 8em; /* Set a specific width */
+    margin-top: 35%;
+}
+  #mySidenav a {
     text-decoration: none; /* Remove underline */
     font-size: 0.9em; /* Increase font size */
     color: white; /* White text color */
@@ -77,39 +80,40 @@ h3 {
   
   /* Les onglets a partir du top */
   #C17323F {
-    /*top: 320px;*/
-    top: 20em;
+    /*top: 320px;
+    top: 20em;*/
     background-color: #17323F;
   }
   
   #C175D79 {
-    /*top: 380px;*/
-    top: 23em;
+    /*top: 380px;
+    top: 23em;*/
     background-color: #175D79;
   }
   
   #C139FC6 {
-    /*top: 440px;*/
-    top: 26em;
+    /*top: 440px;
+    top: 26em;*/
     background-color: #139FC6;
   }
   
   #C5AC8FA {
-    /*top: 500px;*/
-    top: 29em;
+    /*top: 500px;
+    top: 29em;*/
     background-color: #5AC8FA
   }
   #CB7E2FA {
-    /*top: 560px;*/
-    top: 32em;
+    /*top: 560px;
+    top: 32em;*/
     background-color: #B7E2FA
   }
 
  .main {
-    margin-left: 30%; /* mettre une largeur identique a la classe sidenav */
-    font-size: 20px; /* pour augmenter la lisibilité au scroll */
+    margin-left: 35%; /* mettre une largeur identique a la classe sidenav */
+    font-size: 1rem; /* pour augmenter la lisibilité au scroll */
+    line-height: 1.6em;
     color: #021720;
-    padding: 0px 10px;
+    padding: 3% 5% 0 0;
   }
 
   .main a {
@@ -127,6 +131,10 @@ h3 {
  .lela {
      color: crimson;
  }
+
+ i.fab {
+  color: #139FC6;
+}
   
   @media screen and (max-height: 450px) {
     .sidenav {padding-top: 15px;}
