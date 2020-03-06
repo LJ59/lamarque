@@ -23,9 +23,13 @@ h3 {
 }
 
 ul {list-style: none}
-li::before {content: "■"; color: 139FC6;
+li::before {content: "■"; color: #139FC6;
   display: inline-block; width: 1em;
   margin-left: -1em}
+
+img{
+      text-align:center;
+}
 
 
   .logo {
