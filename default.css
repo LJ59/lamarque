@@ -6,10 +6,12 @@ body {
       }
 h1 {
 color: #139FC6;
+text-align: center;
 }
 
 h2 {
   color: #175D79;
+  text-align: center;
 }
 
 h3 {
