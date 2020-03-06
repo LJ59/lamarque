@@ -20,20 +20,24 @@ h2 {
     font-size: 2em;
    line-height: 1.2em;
 }
-
 h3 {
    color: #17323F;
     font-size: 1.5em;
     padding-top: 0.5em;
 }
 
-ul {      list-style: none;
-      padding-inline-start: 1em;}
+ul {list-style: none;
+    padding-inline-start: 1.25em;
+}
+
+
+
 li::before {content: "■"; color: #139FC6;
   display: inline-block; width: 1em;
   margin-left: -1em}
 
-  .logo {
+
+.logo {
     width: 10em;
     height: 5em;
     margin: 1em;
@@ -147,13 +151,15 @@ a:hover {
 
 
  .image {
+
     width: 90%;
     margin-left: auto;
     margin-right: auto;
     display: block;
        padding-top: 1em;
     padding-bottom: 1em;
- }
+       }
+
 
  .lela {
      color: crimson;
