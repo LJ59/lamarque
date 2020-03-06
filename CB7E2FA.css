@@ -1,6 +1,8 @@
 /*CSS Sucks*/
 body {
       font-family: "Roboto", sans-serif;
+      margin:0;
+      padding:0;
   }
 
   h1 {
@@ -21,7 +23,7 @@ body {
     margin: 1em;
     padding: 1em;
     float: right;
-    background-image: url(img/Logo_La_Marque_B.svg);
+    /*background-image: url(img/Logo_La_Marque_B.svg);*/
     background-repeat: no-repeat;
 }
 
