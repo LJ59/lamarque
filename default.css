@@ -6,9 +6,10 @@ body {
       }
 h1 {
 color: #139FC6;
-      margin-top: 1em;
-      line-height: 1em;
+margin-top: 1.2em;
+line-height: 1em;
 text-align: center;
+font-size: 2.3em;
 }
 
 h2 {
@@ -16,23 +17,23 @@ h2 {
       padding-top: 2em;
       padding-bottom: 1.3em;            
   text-align: center;
+      font-size: 2em
 }
 
 h3 {
    color: #17323F;
 }
 
-ul {list-style: none}
+ul {list-style: none;
+    padding-inline-start: 1.25em;
+}
+
+
 li::before {content: "■"; color: #139FC6;
   display: inline-block; width: 1em;
   margin-left: -1em}
 
-img{
-      text-align:center;
-}
-
-
-  .logo {
+.logo {
     width: 10em;
     height: 5em;
     margin: 1em;
@@ -140,8 +141,13 @@ img{
   }
 
  .image {
-    width:70%;
- }
+  width: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 1.3em;
+    padding-top: 1.3em;
+       }
 
  .lela {
      color: crimson;
