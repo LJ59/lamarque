@@ -6,17 +6,26 @@ body {
       }
 h1 {
 color: #139FC6;
+      margin-top: 1em;
+      line-height: 1em;
 text-align: center;
 }
 
 h2 {
   color: #175D79;
+      padding-top: 2em;
+      padding-bottom: 1.3em;            
   text-align: center;
 }
 
 h3 {
    color: #17323F;
 }
+
+ul {list-style: none}
+li::before {content: "■"; color: 139FC6;
+  display: inline-block; width: 1em;
+  margin-left: -1em}
 
 
   .logo {
