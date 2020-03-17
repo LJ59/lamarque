@@ -2,7 +2,7 @@
 body {
     font-family: "Roboto", sans-serif;
     margin:0;
-    padding:0;
+    padding: 0;
 }
 
 h1 {
@@ -68,6 +68,7 @@ section {
     line-height: 1.6em;
     color: #021720;
     /*padding: 3% 5% 0 0;*/ /*rajoute un effet degueu au scroll*/
+        
 }
 
 /*
@@ -106,7 +107,7 @@ article a:hover {
     background-color: #17323F;
     color: #ffffff;
     text-align: center;
-}
+  }
 
 .logofooter {
   width: 10em;
@@ -235,7 +236,7 @@ input[type=button] {
     bottom: 20px;
     right: 45px;
     /*margin: 0 auto;*/
-    font-size: 5em;
+    font-size: 2em;
   }
 
   i.fab {
@@ -256,6 +257,7 @@ input[type=button] {
     color: #ffffff;
   }
 
+  
 
 @media only screen and (min-width: 758px) {
     #conteneur{
@@ -274,23 +276,32 @@ input[type=button] {
     #conteneur{
         /*grille de mise en page*/
         grid-template-columns: 1fr;
+        grid-template-rows: 1fr auto;
         grid-template-areas: "article"
-        "pieddepage"
-        "menu";
+        "menu"
+        "navig"
+        "pieddepage";
+        
         width: 100%;
+        /*min-height: 100%;
+        margin-bottom: -150px;*/
     }
+   
     #sidenav{
         display: none;
     }
 
     #navig{
+      grid-area: navig;
         display: block;
+        position: -webkit-sticky;
         position: sticky;
+       /* z-index: 2;*/
         bottom: 0.5em;
         background-color: #cd1719;
         color: #ffffff;
-        font-size: 24px; 
-        line-height: 24px;
+        font-size: 16px; 
+        line-height: 16px;
         padding: 19px; 
         border-radius: 50px;
         -webkit-appearance: none;
@@ -298,6 +309,5 @@ input[type=button] {
         text-align: center;
         margin: 0 auto;        
     }
-    
     }
   
