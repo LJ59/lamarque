@@ -119,7 +119,7 @@ article a:hover {
 #sidenav {
     position: -webkit-sticky;
     position: sticky;
-    top: 0;
+    top: 1.1rem;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -226,7 +226,7 @@ input[type=button] {
     position: relative;
     width: 100%;
     text-align: center;
-    margin-top: 30px;
+    /*margin-top: 30px;*/
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -236,6 +236,7 @@ input[type=button] {
     bottom: 20px;
     right: 45px;
     /*margin: 0 auto;*/
+    text-align: center;
     font-size: 2em;
     color: #ffffff;
   }
