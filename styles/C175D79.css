@@ -260,6 +260,29 @@ input[type=button] {
     color: #ffffff;
   }
 
+  blockquote::before{
+    content: "\201C";
+    color:#175D79;
+    font-size:4em;
+    position: absolute;
+    left: 10px;
+    top:-10px;
+  }
+
+  blockquote {
+     font-size: 1.4em;
+    width:80%;
+    margin:50px auto;
+    font-style:italic;
+    padding:1.2em 30px 1.2em 65px;
+    line-height:1.6;
+    position: relative;
+  }
+
+  blockquote::after{
+    content: '';
+  }
+
   
 
 @media only screen and (min-width: 758px) {
