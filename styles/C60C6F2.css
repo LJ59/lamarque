@@ -237,8 +237,9 @@ input[type=button] {
     right: 45px;
     /*margin: 0 auto;*/
     text-align: center;
-    font-size: 2em;
+    font-size: 3em;
     color: #17323F;
+    text-decoration: none;
   }
 
   i.fab {

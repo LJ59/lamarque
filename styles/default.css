@@ -146,7 +146,7 @@ article a:hover {
     padding: 6px 8px 6px 16px;
     text-decoration: none;
     font-size: 20px;
-    color: #ffffff;
+    color: #17323F;
     cursor: pointer;
     /*display: block;*/
   }
@@ -239,9 +239,14 @@ input[type=button] {
     right: 45px;
     /*margin: 0 auto;*/
     text-align: center;
-    font-size: 2em;
-    color: #ffffff;
+    font-size: 3em;
+    color: #17323F;
+    text-decoration: none;
   }
+
+  .overlay .closebtn a:hover {
+    text-decoration: underline;
+ }
 
   i.fab {
     color: #139FC6;
