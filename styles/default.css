@@ -289,7 +289,10 @@ input[type=button] {
   blockquote::after{
     content: '';
   }
-
+.button{
+  border: none;
+  cursor: pointer;
+}
 
 
   
@@ -327,7 +330,7 @@ input[type=button] {
     }
 
     #navig{
-      grid-area: navig;
+        grid-area: navig;
         display: block;
         position: -webkit-sticky;
         position: sticky;
@@ -335,7 +338,6 @@ input[type=button] {
         bottom: 0.5em;
         background-color: #cd1719;
         color: #ffffff;
-        font-size: 16px; 
         line-height: 16px;
         padding: 19px; 
         border-radius: 50px;
