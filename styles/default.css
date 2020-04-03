@@ -290,7 +290,7 @@ input[type=button] {
     content: '';
   }
 .button{
-  border: none;
+  border: 0;
   cursor: pointer;
 }
 
