@@ -261,24 +261,31 @@ input[type=button] {
   }
 
   blockquote::before{
-    content: "\201C";
-    color:#17323F;
-    font-size:4em;
+    content: '';
     position: absolute;
-    left: 10px;
-    top:-10px;
+    top: 0;
+    left: 0;
+    width: 32px;
+    height: 32px;
+    background-size: 32px 32px;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-image: url('../img/guillemets.svg');
   }
-
+  
   blockquote {
-     font-size: 1.4em;
+    padding: 0 0 0 50px;
+    position: relative;
+    margin-bottom: 1.5rem;
+    font-size: 1.4em;
+    font-weight: 700;
     width:80%;
     margin:50px auto;
     font-style:italic;
-    padding:1.2em 30px 1.2em 65px;
+    /*padding:1.2em 30px 1.2em 65px;*/
     line-height:1.6;
-    position: relative;
   }
-
+  
   blockquote::after{
     content: '';
   }
