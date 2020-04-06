@@ -203,7 +203,7 @@ article a:hover {
  
 /*Bouton menu mobile*/
 input[type=button] {
-  border: none;
+  border: 0;
   cursor:pointer; 
 }
 
@@ -290,8 +290,7 @@ input[type=button] {
     content: '';
   }
 .button{
-  border: 0;
-  outline: none;
+  border: none;
   cursor: pointer;
 }
 
@@ -335,7 +334,7 @@ input[type=button] {
         display: block;
         position: -webkit-sticky;
         position: sticky;
-       /* z-index: 2;*/
+        /*z-index: 2;*/
         bottom: 0.5em;
         background-color: #cd1719;
         color: #ffffff;
@@ -345,6 +344,6 @@ input[type=button] {
         -webkit-appearance: none;
         text-decoration: none;
         text-align: center;
-        margin: 0 auto;        
+        margin: 0 auto;
     }
     }
