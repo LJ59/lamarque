@@ -141,6 +141,10 @@ li::before {
     text-decoration: underline;
 }
 
+.liens a:focus {
+    text-decoration: underline;
+}
+
 .mySidenav {
     display: flex;
     flex-direction: column;
@@ -185,10 +189,30 @@ li::before {
 
 /*Bouton menu mobile*/
 
+
+/*
 input[type=button] {
     border: 0;
     cursor: pointer;
 }
+
+
+.circle {
+    background: #23466e;
+    border: none;
+    border-radius: 900px;
+    color: #e4ecfa;
+    cursor: pointer;
+    display: block;
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    position: relative;
+    margin: auto;
+    margin-top: 25px;
+}
+
+*/
 
 #navig {
     display: none;
@@ -243,11 +267,11 @@ i.fab {
 .cartouche a {
     color: #ffffff;
     cursor: pointer;
-    text-decoration: none;
+    text-decoration: underline;
 }
 
 .cartouche a:hover {
-    text-decoration: underline;
+    text-decoration: none;
 }
 
 blockquote::before {
@@ -277,10 +301,12 @@ blockquote::after {
     content: '';
 }
 
+
+/*
 .button {
     border: none;
     cursor: pointer;
-}
+}*/
 
 @media only screen and (min-width: 758px) {
     #conteneur {
@@ -307,15 +333,24 @@ blockquote::after {
     }
     #navig {
         grid-area: navig;
-        display: block;
+        /*display: block;*/
         position: -webkit-sticky;
         position: sticky;
-        bottom: 0.5em;
+        bottom: 2.5em;
         background-color: #cd1719;
-        color: #ffffff;
+        /*color: #ffffff;
         line-height: 16px;
         padding: 19px;
-        border-radius: 50px;
+        border-radius: 50px;*/
+        border: none;
+        border-radius: 800px;
+        color: #ffffff;
+        cursor: pointer;
+        display: block;
+        width: 80px;
+        height: 80px;
+        line-height: 80px;
+        /**/
         -webkit-appearance: none;
         text-decoration: none;
         text-align: center;
