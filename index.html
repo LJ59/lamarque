@@ -18,8 +18,8 @@
 </head>
 
 <body>
-    <div id="conteneur">
-        <div id="contenu">
+    <div id="conteneur" >
+        <div id="contenu" role="main">
             <section>
                 <h1>Nord, le Département est là</h1>
                 <h2>Le récit d'une transformation</h2>
@@ -184,24 +184,29 @@ C568,16.1,573.3,10.5,580.1,10.3z" />
         <input type="button" value="&#9776;&#x0D;&#x0A;Menu" id="navig" onclick="openNav()">
         <!--Menu desktop-->
         <div id="menu">
+            <nav>
             <div id="sidenav">
                 <div id="sidenav_logo" class="logo">
                     <img class="logolm" src="img/Logo_La_Marque.svg" alt="Nord le Département, la Marque">
                 </div>
                 <div id="sidenav_liens" class="liens">
-                    <a href="#59engagement">Nos engagements</a>
-                    <a href="#59couleur">Notre couleur</a>
-                    <a href="#59signature">Notre signature</a>
-                    <a href="#59offre">Notre offre</a>
-                    <a href="#59outils">Nos outils</a>
-                    <a href="#59contact">Suivez nous</a>
+                    <ul>
+                   <li> <a href="#59engagement">Nos engagements</a></li>
+                    <li><a href="#59couleur">Notre couleur</a></li>
+                    <li><a href="#59signature">Notre signature</a></li>
+                   <li> <a href="#59offre">Notre offre</a></li>
+                   <li> <a href="#59outils">Nos outils</a></li>
+                   <li> <a href="#59contact">Suivez nous</a></li>
+                    </ul>
                 </div>
-                <div id="sidenav_mySidenav" class="mySidenav">
+                </nav>
+                <div id="sidenav_mySidenav" class="mySidenav" role="presentation">
                     <a href="#" id="C17323F" onclick="swapStyleSheet0('styles/C17323F.css')">&zwnj;</a>
                     <a href="#" id="C175D79" onclick="swapStyleSheet0('styles/C175D79.css')">&zwnj;</a>
                     <a href="#" id="C139FC6" onclick="swapStyleSheet0('styles/default.css')">&zwnj;</a>
                     <a href="#" id="C60C6F2" onclick="swapStyleSheet1('styles/C60C6F2.css')">&zwnj;</a>
                 </div>
+                
             </div>
             <!--menu mobile-->
             <div id="myNav" class="overlay">
@@ -209,21 +214,24 @@ C568,16.1,573.3,10.5,580.1,10.3z" />
                     <div class="logo">
                         <img class="logolm" src="img/Logo_La_Marque.svg" alt="Nord le Département, la Marque">
                     </div>
+                    <nav>
                     <div class="liens">
-                        <a href="#59engagement" onclick="closeNav()">Nos engagements</a>
-                        <a href="#59couleur" onclick="closeNav()">Notre couleur</a>
-                        <a href="#59signature" onclick="closeNav()">Notre signature</a>
-                        <a href="#59offre" onclick="closeNav()">Notre offre</a>
-                        <a href="#59outils" onclick="closeNav()">Nos outils</a>
-                        <a href="#59contact" onclick="closeNav()">Suivez nous</a>
+                        <li><a href="#59engagement" onclick="closeNav()">Nos engagements</a></li>
+                        <li><a href="#59couleur" onclick="closeNav()">Notre couleur</a></li>
+                        <li><a href="#59signature" onclick="closeNav()">Notre signature</a></li>
+                        <li><a href="#59offre" onclick="closeNav()">Notre offre</a></li>
+                        <li><a href="#59outils" onclick="closeNav()">Nos outils</a></li>
+                        <li><a href="#59contact" onclick="closeNav()">Suivez nous</a></li>
                     </div>
-                    <div class="mySidenav">
+ </nav>
+                    <div class="mySidenav" role="presentation" >
                         <a href="#" id="C17323F" onclick="swapStyleSheet0('styles/C17323F.css')">&zwnj;</a>
                         <a href="#" id="C175D79" onclick="swapStyleSheet0('styles/C175D79.css')">&zwnj;</a>
                         <a href="#" id="C139FC6" onclick="swapStyleSheet0('styles/default.css')">&zwnj;</a>
                         <a href="#" id="C60C6F2" onclick="swapStyleSheet1('styles/C60C6F2.css')">&zwnj;</a>
                     </div>
                     <div><a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a></div>
+    
                 </div>
             </div>
         </div>
@@ -233,7 +241,7 @@ C568,16.1,573.3,10.5,580.1,10.3z" />
             <div class="logofooter"><img src="img/logo_nord-02.svg" alt="Nord, le Département est là">
             </div>
             <div class="cartouche">Direction de la communication</br>
-                <a href="tel:+33359735198"><i>+33(</i>0<i>)</i>359735198</a></br>
+                <a href="tel:+33359735198"><i>+33 (</i>0<i>)</i>3 59 73 51 98</a></br>
                 <a href="mailto:dircom@lenord.fr">dircom@lenord.fr</a></br>
             </div>
             <!--</footer>-->
