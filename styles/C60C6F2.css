@@ -8,7 +8,7 @@ body {
 
 h1 {
     color: #139FC6;
-    margin-top: 0.7em;
+    margin-top: 1.2em;
     line-height: 1.2em;
     text-align: center;
     font-size: 3em;
@@ -36,7 +36,7 @@ ul {
 }
 
 section {
-    margin: 2rem;
+    margin: 15%;
 }
 
 li::before {
@@ -54,27 +54,17 @@ li::before {
     display: block;
     padding-top: 1em;
     padding-bottom: 1em;
+    max-width: 1000px
 }
 
 #conteneur {
     /*grille de mise en page*/
     display: grid;
     grid-template-areas: "entete" "menu" "contenu" "pieddepage";
-    /*gap: 0.2em;*/
     width: 95%;
-    /*margin: auto;*/
     line-height: 1.6em;
     color: #021720;
-    /*padding: 3% 5% 0 0;*/
-    /*rajoute un effet degueu au scroll*/
 }
-
-
-/*
-#header {
-  margin: 2rem;
-}
-*/
 
 #menu {
     grid-area: menu;
@@ -129,24 +119,29 @@ li::before {
     float: right;
     width: 10em;
     height: 5em;
-    margin: 1em;
+    margin: 2em;
     padding: 0.6em;
 }
 
 .liens {
     display: flex;
     flex-direction: column;
-    margin: 1em;
+    margin: 0em 4em 2em 4em;
 }
 
 .liens a {
-    padding: 6px 8px 6px 0px;
+    padding: 6px 0px 6px 0px;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 1.05em;
     color: #17323F;
+    cursor: pointer;
 }
 
 .liens a:hover {
+    text-decoration: underline;
+}
+
+.liens a:focus {
     text-decoration: underline;
 }
 
@@ -160,7 +155,8 @@ li::before {
 .mySidenav a {
     text-decoration: none;
     font-size: 0.9em;
-    color: white;
+    color: #ffffff;
+    cursor: pointer;
 }
 
 .mySidenav a:hover {
@@ -193,10 +189,30 @@ li::before {
 
 /*Bouton menu mobile*/
 
+
+/*
 input[type=button] {
     border: 0;
     cursor: pointer;
 }
+
+
+.circle {
+    background: #23466e;
+    border: none;
+    border-radius: 900px;
+    color: #e4ecfa;
+    cursor: pointer;
+    display: block;
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    position: relative;
+    margin: auto;
+    margin-top: 25px;
+}
+
+*/
 
 #navig {
     display: none;
@@ -230,6 +246,10 @@ input[type=button] {
     text-decoration: none;
 }
 
+.overlay .closebtn a:hover {
+    text-decoration: underline;
+}
+
 i.fab {
     color: #60C6F2;
 }
@@ -247,11 +267,11 @@ i.fab {
 .cartouche a {
     color: #ffffff;
     cursor: pointer;
-    text-decoration: none;
+    text-decoration: underline;
 }
 
 .cartouche a:hover {
-    text-decoration: underline;
+    text-decoration: none;
 }
 
 blockquote::before {
@@ -281,6 +301,13 @@ blockquote::after {
     content: '';
 }
 
+
+/*
+.button {
+    border: none;
+    cursor: pointer;
+}*/
+
 @media only screen and (min-width: 758px) {
     #conteneur {
         /*grille de mise en page*/
@@ -306,15 +333,24 @@ blockquote::after {
     }
     #navig {
         grid-area: navig;
-        display: block;
+        /*display: block;*/
         position: -webkit-sticky;
         position: sticky;
-        bottom: 0.5em;
+        bottom: 2.5em;
         background-color: #cd1719;
-        color: #ffffff;
+        /*color: #ffffff;
         line-height: 16px;
         padding: 19px;
-        border-radius: 50px;
+        border-radius: 50px;*/
+        border: none;
+        border-radius: 800px;
+        color: #ffffff;
+        cursor: pointer;
+        display: block;
+        width: 80px;
+        height: 80px;
+        line-height: 80px;
+        /**/
         -webkit-appearance: none;
         text-decoration: none;
         text-align: center;
