@@ -8,7 +8,6 @@ body {
 
 h1 {
     color: #139FC6;
-    margin-top: 1.2em;
     line-height: 1.2em;
     text-align: center;
     font-size: 3em;
@@ -48,13 +47,12 @@ li::before {
 }
 
 .image {
-    width: 80%;
     margin-left: auto;
     margin-right: auto;
     display: block;
     padding-top: 1em;
     padding-bottom: 1em;
-    max-width: 1000px
+    max-width: 990px
 }
 
 #conteneur {
@@ -126,7 +124,7 @@ li::before {
 .liens {
     display: flex;
     flex-direction: column;
-    margin: 0em 4em 2em 4em;
+    margin: 0em 4em 0em 4em;
 }
 
 .liens a {
@@ -135,6 +133,7 @@ li::before {
     font-size: 1.05em;
     color: #17323F;
     cursor: pointer;
+    line-height: 1.75em;
 }
 
 .liens a:hover {
