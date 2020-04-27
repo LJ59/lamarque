@@ -1,0 +1,368 @@
+/*CSS Suxx*/
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    color: #139FC6;
+    text-align: center;
+}
+
+h2 {
+    color: #175D79;
+    padding-top: 2em;
+    padding-bottom: 1.3em;
+    text-align: center;
+    font-size: 2.5em;
+    line-height: 1.2em;
+}
+
+h3 {
+    color: #17323F;
+    font-size: 1.5em;
+    padding-top: 0.5em;
+    line-height: 1.25em;
+}
+
+ul {
+    list-style: none;
+    padding-inline-start: 1.25em;
+}
+
+section {
+    margin: 15%;
+}
+
+li::before {
+    content: "■";
+    color: #60C6F2;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em
+}
+
+.image {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    max-width: 1000px
+}
+
+#conteneur {
+    /*grille de mise en page*/
+    display: grid;
+    grid-template-areas: "entete" "menu" "contenu" "pieddepage";
+    width: 95%;
+    line-height: 1.6em;
+    color: #021720;
+}
+
+#menu {
+    grid-area: menu;
+    background-color: #60C6F2;
+}
+
+#contenu {
+    grid-area: contenu;
+}
+
+#contenu a {
+    color: #006487;
+}
+
+#contenu a:visited {
+    color: #660099;
+}
+
+#contenu a:hover {
+    text-decoration: none;
+}
+
+.lela {
+    padding-top: 5em;
+}
+
+.footer {
+    grid-area: pieddepage;
+    background-color: #17323F;
+    color: #ffffff;
+    text-align: center;
+}
+
+.logofooter {
+    width: 10em;
+    height: 5em;
+    margin: 0 auto;
+    padding: 1em;
+}
+
+#sidenav {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 1.1rem;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: flex-end;
+}
+
+.logo {
+    float: right;
+    width: 10em;
+    height: 5em;
+    margin: 2em;
+    padding: 0.6em;
+}
+
+.liens {
+    display: flex;
+    flex-direction: column;
+    margin: 0em 4em 2em 4em;
+    align-items: center;
+    justify-content: center;
+}
+
+.liens ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.liens a {
+    padding: 6px 0px 6px 0px;
+    text-decoration: none;
+    font-size: 1.05em;
+    color: #17323F;
+    cursor: pointer;
+}
+
+.liens a:hover {
+    text-decoration: underline;
+}
+
+.liens a:focus {
+    text-decoration: underline;
+}
+
+.mySidenav {
+    display: flex;
+    flex-direction: column;
+    align-self: flex-start;
+    width: 3em;
+}
+
+.mySidenav a {
+    text-decoration: none;
+    font-size: 0.9em;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.mySidenav a:hover {
+    text-decoration: underline;
+}
+
+
+/* Les onglets a partir du top */
+
+#C17323F {
+    background-color: #17323F;
+    height: 3em;
+}
+
+#C175D79 {
+    background-color: #175D79;
+    height: 3em;
+}
+
+#C139FC6 {
+    background-color: #139FC6;
+    height: 3em;
+}
+
+#C60C6F2 {
+    background-color: #60C6F2;
+    height: 3em;
+}
+
+
+/*Bouton menu mobile*/
+
+
+/*
+input[type=button] {
+    border: 0;
+    cursor: pointer;
+}
+
+
+.circle {
+    background: #23466e;
+    border: none;
+    border-radius: 900px;
+    color: #e4ecfa;
+    cursor: pointer;
+    display: block;
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    position: relative;
+    margin: auto;
+    margin-top: 25px;
+}
+
+*/
+
+#navig {
+    display: none;
+}
+
+.overlay {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #60C6F2;
+    overflow-x: hidden;
+    transition: 0.5s;
+}
+
+.overlay-content {
+    position: relative;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.overlay .closebtn {
+    text-align: center;
+    font-size: 3em;
+    color: #17323F;
+    text-decoration: none;
+}
+
+.overlay .closebtn a:hover {
+    text-decoration: underline;
+}
+
+i.fab {
+    color: #60C6F2;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 4em;
+}
+
+.cartouche {
+    margin: 0.9em;
+}
+
+.cartouche a {
+    color: #ffffff;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.cartouche a:hover {
+    text-decoration: none;
+}
+
+blockquote::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 32px;
+    height: 32px;
+    background-size: 32px 32px;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-image: url('../img/guillemets.svg');
+}
+
+blockquote {
+    padding: 0 0 0 50px;
+    position: relative;
+    margin-bottom: 1.5rem;
+    font-size: 1.4em;
+    width: 80%;
+    margin: 50px auto;
+    line-height: 1.6;
+}
+
+blockquote::after {
+    content: '';
+}
+
+
+/*
+.button {
+    border: none;
+    cursor: pointer;
+}*/
+
+@media only screen and (min-width: 758px) {
+    #conteneur {
+        /*grille de mise en page*/
+        grid-template-columns: 350px 1fr;
+        grid-template-areas: "menu contenu" "menu pieddepage";
+        width: 100%;
+    }
+    #myNav {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 757px) {
+    #conteneur {
+        /*grille de mise en page*/
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr auto;
+        grid-template-areas: "contenu" "menu" "navig" "pieddepage";
+        width: 100%;
+    }
+    #sidenav {
+        display: none;
+    }
+    #navig {
+        grid-area: navig;
+        /*display: block;*/
+        position: -webkit-sticky;
+        position: sticky;
+        bottom: 2.5em;
+        background-color: #cd1719;
+        /*color: #ffffff;
+        line-height: 16px;
+        padding: 19px;
+        border-radius: 50px;*/
+        border: none;
+        border-radius: 800px;
+        color: #ffffff;
+        cursor: pointer;
+        display: block;
+        width: 80px;
+        height: 80px;
+        line-height: 80px;
+        /**/
+        -webkit-appearance: none;
+        text-decoration: none;
+        text-align: center;
+        margin: 0 auto;
+    }
+}
