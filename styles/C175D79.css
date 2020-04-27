@@ -1,6 +1,7 @@
 /*CSS Suxx*/
+
 html {
-scroll-behavior: smooth;
+    scroll-behavior: smooth;
 }
 
 body {
@@ -11,10 +12,7 @@ body {
 
 h1 {
     color: #139FC6;
-    margin-top: 1.2em;
-    line-height: 1.2em;
     text-align: center;
-    font-size: 3em;
 }
 
 h2 {
