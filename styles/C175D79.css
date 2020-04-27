@@ -58,6 +58,16 @@ li::before {
     max-width: 1000px
 }
 
+#imageH1 {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    max-width: 600px
+}
+
 #conteneur {
     /*grille de mise en page*/
     display: grid;
@@ -198,31 +208,6 @@ li::before {
 
 /*Bouton menu mobile*/
 
-
-/*
-input[type=button] {
-    border: 0;
-    cursor: pointer;
-}
-
-
-.circle {
-    background: #23466e;
-    border: none;
-    border-radius: 900px;
-    color: #e4ecfa;
-    cursor: pointer;
-    display: block;
-    width: 100px;
-    height: 100px;
-    line-height: 100px;
-    position: relative;
-    margin: auto;
-    margin-top: 25px;
-}
-
-*/
-
 #navig {
     display: none;
 }
@@ -309,13 +294,6 @@ blockquote {
 blockquote::after {
     content: '';
 }
-
-
-/*
-.button {
-    border: none;
-    cursor: pointer;
-}*/
 
 @media only screen and (min-width: 758px) {
     #conteneur {
