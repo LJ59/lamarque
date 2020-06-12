@@ -1,4 +1,3 @@
 # Site vitrine de la marque employeur du Département du Nord
 
-![Alt text](./controllers_brief.svg)
-<img src="./controllers_brief.svg">
+![alt text](https://github.com/LJ59/lamarque/blob/master/img/Logo-Nord.png "Logo du Département du Nord")
