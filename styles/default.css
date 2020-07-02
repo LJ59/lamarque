@@ -307,6 +307,17 @@ blockquote::after {
     border: 0;
 }
 
+.photobox {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+}
+
+.imagebox {
+    width: 40%;
+    margin: 0.5em;
+}
+
 @media only screen and (min-width: 758px) {
     #conteneur {
         /*grille de mise en page*/
