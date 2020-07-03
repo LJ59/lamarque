@@ -398,7 +398,7 @@ blockquote::after {
 
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
     .imagebox {
-        width: 75%;
+        width: 100%;
         margin: 0.5em;
     }
 }
