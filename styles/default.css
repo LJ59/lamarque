@@ -314,7 +314,7 @@ blockquote::after {
 }
 
 .imagebox {
-    width: 40%;
+    width: 45%;
     margin: 0.5em;
 }
 
@@ -359,5 +359,9 @@ blockquote::after {
         text-decoration: none;
         text-align: center;
         margin: 0 auto;
+    }
+    .imagebox {
+        width: 75%;
+        margin: 0.5em;
     }
 }
