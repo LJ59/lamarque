@@ -397,6 +397,22 @@ blockquote::after {
 }
 
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+    #conteneur {
+        /*grille de mise en page*/
+        grid-template-columns: 300px 1fr;
+        grid-template-areas: "menu contenu" "menu pieddepage";
+        width: 100%;
+    }
+    .liens_sidenav {
+        display: flex;
+        flex-direction: column;
+        margin: 0em 0em 2em 6em;
+        align-items: center;
+        justify-content: center;
+    }
+    #myNav {
+        display: none;
+    }
     .imagebox {
         width: 100%;
         margin: 0.5em;
