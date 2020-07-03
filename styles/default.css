@@ -134,6 +134,36 @@ li::before {
     padding: 0.6em;
 }
 
+.liens_sidenav {
+    display: flex;
+    flex-direction: column;
+    margin: 0em 2em 2em 9em;
+    align-items: center;
+    justify-content: center;
+}
+
+.liens_sidenav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.liens_sidenav a {
+    padding: 6px 0px 6px 0px;
+    text-decoration: none;
+    font-size: 1.05em;
+    color: #17323F;
+    cursor: pointer;
+}
+
+.liens_sidenav a:hover {
+    text-decoration: underline;
+}
+
+.liens_sidenav a:focus {
+    text-decoration: underline;
+}
+
 .liens {
     display: flex;
     flex-direction: column;
@@ -314,7 +344,7 @@ blockquote::after {
 }
 
 .imagebox {
-    width: 45%;
+    width: 44%;
     margin: 0.5em;
 }
 
