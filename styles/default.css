@@ -29,6 +29,12 @@ body {
     margin: 0em;
 }
 
+.emphase2 {
+    font-size: 1.2em;
+    padding: 0.5em;
+    margin: 0em;
+}
+
 h1 {
     color: #139FC6;
     font-size: 4em;
@@ -80,6 +86,7 @@ li::before {
 
 #imageH1 {
     width: 100%;
+    /*height: 10%;
     /*margin-left: auto;
     margin-right: auto;
     display: block;
@@ -119,7 +126,7 @@ li::before {
 }
 
 .lela {
-    padding-top: 5em;
+    padding-top: 0.5em;
 }
 
 .footer {
