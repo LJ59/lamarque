@@ -376,7 +376,7 @@ blockquote::after {
 }
 
 .imagebox {
-    width: 46%;
+    width: 44%;
     margin: 0.5em;
 }
 
@@ -451,7 +451,7 @@ blockquote::after {
         margin: 0 auto;
     }
     .imagebox {
-        width: 75%;
+        width: 100%;
         margin: 0.5em;
     }
     .column {
@@ -469,7 +469,7 @@ blockquote::after {
     .liens_sidenav {
         display: flex;
         flex-direction: column;
-        margin: 0em 2em 2em 6em;
+        margin: 0em 0em 2em 6em;
         align-items: center;
         justify-content: center;
     }
