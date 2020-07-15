@@ -214,7 +214,7 @@ li::before {
     padding: 6px 0px 6px 0px;
     text-decoration: none;
     font-size: 1.05em;
-    color: #FFFFFFF;
+    color: #FFFFFF;
     cursor: pointer;
 }
 
@@ -295,7 +295,7 @@ li::before {
 .overlay .closebtn {
     text-align: center;
     font-size: 3em;
-    color: #17323F;
+    color: #FFFFFF;
     text-decoration: none;
 }
 
