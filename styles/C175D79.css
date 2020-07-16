@@ -377,6 +377,7 @@ blockquote::after {
 
 .imagebox {
     width: 44%;
+    height: 44%;
     margin: 0.5em;
 }
 
@@ -469,7 +470,7 @@ blockquote::after {
     .liens_sidenav {
         display: flex;
         flex-direction: column;
-        margin: 0em 0em 2em 6em;
+        margin: 0em 2em 2em 6em;
         align-items: center;
         justify-content: center;
     }
